@@ -569,7 +569,9 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
 
 ```markdown
+!!! note
 
+    Text ...
 ```
 
 !!! note
@@ -578,11 +580,23 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
+!!! abstract
+
+    Text ...
+```
+
 !!! abstract
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+```markdown
+!!! info
+
+    Text ...
+```
 
 !!! info
 
@@ -590,11 +604,23 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
+!!! tip
+
+    Text ...
+```
+
 !!! tip
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+```markdown
+!!! success
+
+    Text ...
+```
 
 !!! success
 
@@ -602,11 +628,23 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
+!!! question
+
+    Text ...
+```
+
 !!! question
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+```markdown
+!!! warning
+
+    Text ...
+```
 
 !!! warning
 
@@ -614,11 +652,23 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
+!!! failure
+
+    Text ...
+```
+
 !!! failure
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+```markdown
+!!! danger
+
+    Text ...
+```
 
 !!! danger
 
@@ -626,11 +676,23 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
+!!! Bug
+
+    Text ...
+```
+
 !!! Bug
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+```markdown
+!!! example
+
+    Text ...
+```
 
 !!! example
 
@@ -638,11 +700,23 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
+!!! quote
+
+    Text ...
+```
+
 !!! quote
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+```markdown
+!!! note "Changing the title"
+
+    Text ...
+```
 
 !!! note "Changing the title"
 
@@ -650,9 +724,15 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+```markdown
 !!! note ""
 
-    "**Removing the title**"
+    Text ...
+```
+
+!!! note ""
+
+    "___Removing the title___"
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
