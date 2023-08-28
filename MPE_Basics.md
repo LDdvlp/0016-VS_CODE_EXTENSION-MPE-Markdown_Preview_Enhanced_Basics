@@ -1,6 +1,6 @@
 |*Doc. #*|*Rédacteur*|*Création*|*Mise à jour*|
 |:---:|:---:|---:|:---|
-|***0016***|*Loïc Drouet*|_Mercredi 28 juin 2023_|_Vendredi 07 juillet 2023_|
+|***0016***|*Loïc Drouet*|_Mercredi 28 juin 2023_|_Lundi 28 août 2023_|
 
 # [MPE Basics - Markdown Preview Enhanced Basics](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics)
 
