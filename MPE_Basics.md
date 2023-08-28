@@ -751,3 +751,278 @@ https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
 !!! success Run PHP chunks.
     You must have defined the PHP path for the variable "Path" in Windows User Environment Variables.
+
+## 3. Markdown cheatsheet
+
+This is a quick reference cheat sheet to the Markdown syntax.
+
+*Source : [https://quickref.me/markdown](https://quickref.me/markdown)*
+
+## Markdown Quick Reference
+
+### 1. Headers
+
+#### 1.1 Headers (atx style)
+
+ATX also works for all levels, while Setex only goes up to level 2.
+
+*[https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#atx-style](https://arcticicestudio.github.io/styleguide-markdown/rules/headings.html#atx-style)*
+
+*[http://www.aaronsw.com/2002/atx/intro](http://www.aaronsw.com/2002/atx/intro)*
+
+*[https://docutils.sourceforge.io/mirror/setext.html](https://docutils.sourceforge.io/mirror/setext.html)*
+
+        # h1
+# h1
+
+        # h2
+## h2
+
+        # h3
+### h3
+
+        # h4
+#### h4
+
+        # h5
+##### h5
+
+        # h6
+###### h6
+
+#### 1.2 Headers (setext style)
+
+        Header 1
+        ========
+
+Header 1
+========
+
+        Header 2
+        ========
+
+Header 2
+--------
+
+---
+
+### 2. Blockquotes
+
+        > This is
+        > a blockquote
+        >
+        > > Nested
+        > > Blockquote
+
+> This is
+> a blockquote
+>
+> > Nested
+> > Blockquote
+
+---
+
+### 3. Unordered List
+
+        * Item 1
+        * Item 2
+            * item 3a
+            * item 3b
+
+* Item 1
+* Item 2
+    * item 3a
+    * item 3b
+
+**or**
+
+        - Item 1
+        - Item 2
+
+- Item 1
+- Item 2
+
+
+**or**
+
+        + Item 1
+        + Item 2
+
++ Item 1
++ Item 2
+
+**or**
+
+```
+    - [ ] Checkbox off
+    - [x] Checkbox on
+```
+
+- [ ] Checkbox off
+- [x] Checkbox on
+
+---
+
+### 4. Ordered List
+
+        1. Item 1
+        2. Item 2
+            a. item 3a
+            b. item 3b
+
+1. Item 1
+2. Item 2
+    a. item 3a
+    b. item 3b
+
+---
+
+### 5. Links
+
+        [link](http://google.com)
+[link](http://google.com)
+
+        [link][google]
+
+        [google]: http://google.com
+
+[link][google]
+
+[google]: http://google.com
+
+        <http://google.com>
+
+<http://google.com>
+
+---
+
+### 6. Emphasis
+
+        *italic*
+*italic*
+        
+        _italic_
+_italic_
+
+        **bold**
+**bold**
+
+        __bold__
+__bold__
+
+        `inline code`
+`inline code`
+
+        ~~struck out~~
+~~struck out~~
+
+---
+
+### 7. Horizontal line
+
+Hyphens
+
+        ---
+---
+
+Asterisks
+
+        ***
+
+***
+
+Underscores
+
+        ___
+
+___
+
+---
+
+### 8. Code
+
+#### 8.1 Block Code
+
+        ```javascript
+        console.log("This is a block code")
+        ```
+
+```javascript
+console.log("This is a block code")
+```
+
+        ~~~css
+        .button { border: none; }
+        ~~~
+
+~~~css
+.button { border: none; }
+~~~
+
+        4 space indent makes a code block
+
+    4 space indent makes a code block
+
+#### 8.2 Inline Code
+
+        `Inline code` has back-ticks around it
+
+`Inline code` has back-ticks around it
+
+### 9. Tables
+
+#### 9.1 Table
+
+        | Left column | Center column | Right column |
+        |:------------|:-------------:|-------------:|
+        | Cell 1      |   Centered    |        $1600 |
+        | Cell 2      |    Cell 3     |          $12 |
+
+| Left column | Center column | Right column |
+|:------------|:-------------:|-------------:|
+| Cell 1      |   Centered    |        $1600 |
+| Cell 2      |    Cell 3     |          $12 |
+
+#### 9.2 Simple style
+
+
+        Left column | Center column | Right column
+        :----------:|:-------------:|:-----------:
+           Cell 1   |   Centered    |    $1600
+           Cell 2   |    Cell 3     |     $12
+
+Left column | Center column | Right column
+:----------:|:-------------:|:-----------:
+   Cell 1   |   Centered    |    $1600
+   Cell 2   |    Cell 3     |     $12
+
+
+A markdown table generator : [https://tableconvert.com/](https://tableconvert.com/)
+
+### 10. Images
+
+#### 10.1 Image
+
+        ![Alt Text](url)
+
+        ![GitHub Logo](/images/logo.png)
+
+![GitHub Logo](/images/logo.png)
+
+#### 10.2 Image with link
+
+        [![Alt Text](image_url)](link_url)
+
+        [![GitHub Logo](/images/logo.png)](https://github.com/)
+
+[![GitHub Logo](/images/logo.png)](https://github.com/)
+
+#### 10.3 Reference style
+
+        ![Alt Text][logo]
+
+        [logo]: /images/logo.png "Logo Title"
+
+![Alt Text][logo]
+
+[logo]: /images/logo.png "Logo Title"
